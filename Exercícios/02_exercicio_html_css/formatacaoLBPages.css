@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgb(189, 174, 109);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulos
+{
+    font-size: 100px;
+    margin-left: 360px;
+    background-color: rgb(104, 201, 80);
+    border: 12px dashed rgb(3, 109, 3);
+}
+
+.subtitulos
+{
+    font-size: 50px;
+    margin-left: 550px;
+}
+
+.titulomeio
+{
+    font-size: 50px;
+    margin-left: 43%;
+}
+
+.textoComum
+{
+    font-size: 28px;
+    text-align: justify;
+    background-color: rgb(148, 202, 66);
+    border: 4px dashed rgb(30, 73, 30);
+}
+
+.destaque1
+{
+    font-size: 30px;
+    color: rgb(197, 47, 139);
+}
+
+.tabelahead
+{
+    background-color: rgb(100, 168, 100);
+    border: 8px double rgb(3, 109, 3);
+}
+
+.tabelabody
+{
+    background-color: rgb(126, 185, 118);
+    border: 8px double rgb(3, 109, 3);
+}
+
+.page1Images
+{
+    width: 40%;
+    border-radius: 15%;
+    margin-left: 100px;
+    border: 4px dashed rgb(30, 73, 30);
+}
+
+.page2Images
+{
+    width: 40%;
+    border-radius: 15%;
+    margin-left: 450px;
+    border: 4px dashed rgb(30, 73, 30);
+}
+
+.page3Images1
+{
+    width: 30%;
+    border-radius: 15%;
+    margin-left: 450px;
+    border: 4px dashed rgb(30, 73, 30);
+}
+
+.page3Images2
+{
+    width: 30%;
+    border-radius: 15%;
+    margin-left: 225px;
+    border: 4px dashed rgb(30, 73, 30);
+}
+
+.linkspagina1
+{
+    margin-left: 1370px;
+}
+
+.linkdadireita
+{
+    margin-left: 1370px;
+}
