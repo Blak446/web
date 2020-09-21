@@ -27,6 +27,11 @@ body
     font-size: 26vh;
 }
 
+.resultado
+{
+    color: red;
+}
+
 .imagemJogadas
 {
     width: 14vw;

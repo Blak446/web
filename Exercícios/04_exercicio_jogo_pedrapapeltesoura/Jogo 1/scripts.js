@@ -30,4 +30,38 @@ function jogada(opcaoJogador)
 
     var imgComputador = document.getElementById("jogador");
     imgComputador.src = imagem;
+
+    //Resultado do jogo
+    var resultado = document.getElementById("resultado");
+
+    //Empate
+    if(randomNumber == opcaoJogador)
+    {
+        resultado.textContent = "EMPATE";
+    }
+    //VITORIAS E DERROTAS
+    else if(randomNumber == 0 && opcaoJogador == 1)
+    {
+        resultado.textContent = "VITÓRIA";
+    }
+    else if(randomNumber == 0 && opcaoJogador == 2)
+    {
+        resultado.textContent = "DERROTA";
+    }
+    else if(opcaoJogador == 0 && randomNumber == 1)
+    {
+        resultado.textContent = "DERROTA";
+    }
+    else if(opcaoJogador == 0 && randomNumber == 2)
+    {
+        resultado.textContent = "VITÓRIA";
+    }
+    else if(opcaoJogador == 1 && randomNumber == 2)
+    {
+        resultado.textContent = "DERROTA";
+    }
+    else if(opcaoJogador == 2 && randomNumber == 1)
+    {
+        resultado.textContent = "VITÓRIA";
+    }
 }
