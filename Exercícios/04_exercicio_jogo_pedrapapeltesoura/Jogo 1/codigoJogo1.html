@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="./bootstrap-4.5.2-dist/css/bootstrap.min.css">
+        <script type="text/javascript" src="./bootstrap-4.5.2-dist/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="./bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+
+        <link type="text/css" rel="stylesheet" href="estilo.css">
+        <script type="text/javascript" src="scripts.js"></script>
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <div>
+            <center><h1 class="titulo">Ultimate Shreck Smash Online</h1></center>
+        </div>
+
+        <br><br><br><br>
+
+        <div class="row">
+            <div class="col-5 justify-content-center">
+                <img class="img-fluid imagemCentralizada" id="computador" src="fundoCinza.png">
+            </div>
+
+            <div class="col-2">
+                <center><p class="X">X</p></center>
+            </div>
+
+            <div class="col-5 justify-content-center">
+                <img class="img-fluid imagemCentralizada" id="jogador" src="fundoCinza.png">
+            </div>
+        </div>
+
+        <br>
+
+        <div>
+            <center><p class="textoJogo">Clique na imagem para fazer sua jogada</p></center>
+        </div>
+        
+        <!--Botoes de jogada-->
+        <center><div>
+            <img class="imagemJogadas" id="pedra" onclick="jogada(0)" src="pedra.png">
+            <img class="imagemJogadas" id="papel" onclick="jogada(1)" src="papel (1).png">
+            <img class="imagemJogadas" id="tesoura" onclick="jogada(2)" src="tesoura.png">
+        </div></center>
+
+        <br><br><br><br><br>
+
+        <center><div>
+            <img style="width: 38vh;" src="Shreck/jureg.png">
+        </div></center>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    </body>
+</html>
